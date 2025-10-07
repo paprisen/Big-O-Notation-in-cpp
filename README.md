@@ -8,50 +8,61 @@ Big O Notation is a mathematical concept used in computer science to describe th
 
 The notation uses mathematical symbols like O(1), O(log n), O(n), O(n log n), and O(n²), where n represents the input size. For example, O(1) means constant time (the execution time doesn’t depend on the input size), while O(n²) means the time grows quadratically as input increases. These categories help compare different algorithms objectively — for instance, a sorting algorithm with O(n log n) is generally faster than one with O(n²) for large datasets.
 
+## Key Characteristics:
+
+* Growth Rate: How runtime increases as input size increases.
+
+* Worst Case: Focuses on maximum time or space needed.
+
+* Asymptotic Behavior: Describes performance as input approaches infinity.
+
+* Scalability: Indicates how well an algorithm performs on large datasets.
+
 ## Types of Big O Notation (time complexities):
 
-1. O(1) – Constant Time:
+## 1. O(1) – Constant Time:
 
-The algorithm takes the same amount of time regardless of input size.
-Example: Accessing an element in an array.
+* The algorithm takes the same amount of time regardless of input size.
+  
+* Example: Accessing an element in an array.
 
-2. O(log n) – Logarithmic Time:
+## 2. O(log n) – Logarithmic Time:
 
 * The time increases slowly as input size grows.
 
 * Example: Binary search.
 
-3. O(n) – Linear Time:
+## 3. O(n) – Linear Time:
 
 * The time increases directly in proportion to the input size.
   
 * Example: Traversing an array or linked list.
 
-4. O(n log n) – Linearithmic Time:
+## 4. O(n log n) – Linearithmic Time:
 
 * Common in efficient sorting algorithms.
 
 * Example: Merge sort, Quick sort (average case).
 
-5. O(n²) – Quadratic Time:
+## 5. O(n²) – Quadratic Time:
 
 * Time increases quadratically with input size.
 
 * Example: Nested loops, Bubble sort, Insertion sort.
 
-6. O(n³) – Cubic Time:
+## 6. O(n³) – Cubic Time:
 
 * Time grows even faster, often seen in algorithms with three nested loops.
 
 * Example: Matrix multiplication (simple method).
 
-7. O(2ⁿ) – Exponential Time:
+## 7. O(2ⁿ) – Exponential Time:
 
 * Time doubles with each additional input element.
 
 * Example: Solving recursive problems like the Traveling Salesman problem.
 
-8. O(n!) – Factorial Time:
+## 8. O(n!) – Factorial Time:
 
 * Extremely slow growth; used in algorithms that generate all permutations.
 
@@ -90,6 +101,14 @@ Big O Notation provides a machine-independent, generalized measure of efficiency
 5. Algorithm Design:
 
 * While designing new algorithms, Big O is used to ensure that the solution is efficient and practical.
+
+## Visualization Tools
+
+1. Algorithm Visualizer
+
+2. VisuAlgo
+
+3. Big O Calculator
 
 ## Conclusion
 
